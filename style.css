@@ -8,24 +8,24 @@ body {
     font-family: 'Gill Sans', sans-serif;
 }
 
-
 .hero-wrapper {
     background-color: #1f2937;
 }
 
-
 .hero-container {
-    max-width: 70%;
+    max-width: 60%;
     margin: 0 auto;
+    height: 65vh;
+
+    display: flex;
+    flex-direction: column;
 }
 
 header {
     display: flex;
     padding: 16px 0;
-    color: white;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 ul {
@@ -36,7 +36,36 @@ ul {
 
 ul li a {
     text-decoration: none;
-    color: white
+}
+
+h1, p, button, a {
+    color: white;
+}
+
+.hero-main {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left h1, .left p {
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+.left h1 {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+
+.left button {
+    padding: 8px 30px;
+    border-radius: 16px;
+    background-color: rgb(41, 130, 160);
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 
@@ -45,7 +74,6 @@ ul li a {
 
 
 
-
 img {
-    width: 300px;
+    width: 500px;
 }

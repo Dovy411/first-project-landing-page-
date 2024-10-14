@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', sans-serif;
+}
+
+
+.hero-wrapper {
+    background-color: #1f2937;
+}
+
+
+.hero-container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    padding: 16px 0;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white
+}
+
+
+
+
+
+
+
+
+img {
+    width: 300px;
+}

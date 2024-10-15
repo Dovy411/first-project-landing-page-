@@ -37,7 +37,7 @@ ul li a {
     text-decoration: none;
 }
 
-.white, p, button, a {
+.white, button, a {
     color: white;
 }
 
@@ -140,3 +140,35 @@ img {
 }
 
 /*CTA section*/
+
+.cta-container {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cta-box {
+    width: 60%;
+    margin: 0 auto;
+    background-color: rgb(44, 101, 206);
+    padding: 35px 70px;
+    border-radius: 6px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta-header {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.cta-button {
+    background-color: rgb(44, 101, 206);
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 8px 32px;
+    font-weight: bold;
+}

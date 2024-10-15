@@ -92,6 +92,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .card {
@@ -109,3 +110,33 @@ img {
 }
 
 /*Quote section*/
+
+.quote-wrapper {
+    background-color: rgb(199, 199, 199);
+}
+
+.quote-container {
+    height: 50vh;
+    max-width: 50%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 2.6rem;
+    font-style: italic;
+    color: rgb(37, 37, 37);
+    margin-bottom: 30px;
+}
+
+.quote-author {
+    text-align: end;
+    margin-right: 40px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/*CTA section*/

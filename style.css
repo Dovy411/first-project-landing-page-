@@ -16,7 +16,6 @@ body {
     max-width: 60%;
     margin: 0 auto;
     height: 65vh;
-
     display: flex;
     flex-direction: column;
 }
@@ -38,7 +37,7 @@ ul li a {
     text-decoration: none;
 }
 
-h1, p, button, a {
+.white, p, button, a {
     color: white;
 }
 
@@ -59,7 +58,6 @@ h1, p, button, a {
     font-size: 3rem;
 }
 
-
 .left button {
     padding: 8px 30px;
     border-radius: 16px;
@@ -68,12 +66,46 @@ h1, p, button, a {
     font-weight: 600;
 }
 
-
-
-
-
-
-
 img {
     width: 500px;
 }
+
+/*Random info section*/
+
+.random-container {
+    max-width: 50%;
+    margin: 0 auto;
+    height: 50vh;
+}
+
+.info-title {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    height: 220px;
+    width: 220px;
+    border: 2px solid #1f2937;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+.card-info {
+    text-align: center;
+    max-width: 200px;
+    color: rgb(63, 63, 63);
+}
+
+/*Quote section*/
